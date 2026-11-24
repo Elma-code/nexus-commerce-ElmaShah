@@ -1,0 +1,14 @@
+[
+  {"id":"p001","name":"Braided Leather Bracelet","category":"Bracelets","price":1800,"stock":12,"image":"https://placehold.co/400x400.png?text=Leather+Bracelet","description":"Hand-braided brown leather bracelet with a brass clasp."},
+  {"id":"p002","name":"Beaded Friendship Bracelet Set","category":"Bracelets","price":1200,"stock":25,"image":"https://placehold.co/400x400.png?text=Beaded+Bracelets","description":"Set of three colorful glass-bead bracelets."},
+  {"id":"p003","name":"Silver Wire Ring","category":"Rings","price":2200,"stock":8,"image":"https://placehold.co/400x400.png?text=Wire+Ring","description":"Adjustable ring made from hand-wrapped silver-plated wire."},
+  {"id":"p004","name":"Resin Flower Ring","category":"Rings","price":1500,"stock":0,"image":"https://placehold.co/400x400.png?text=Resin+Ring","description":"Pressed dried flower sealed in clear resin."},
+  {"id":"p005","name":"Pearl Drop Earrings","category":"Earrings","price":2500,"stock":10,"image":"https://placehold.co/400x400.png?text=Pearl+Earrings","description":"Freshwater-style pearl beads on gold-tone hooks."},
+  {"id":"p006","name":"Clay Leaf Earrings","category":"Earrings","price":1400,"stock":15,"image":"https://placehold.co/400x400.png?text=Clay+Earrings","description":"Lightweight polymer clay earrings, hand-painted."},
+  {"id":"p007","name":"Macramé Necklace","category":"Necklaces","price":2000,"stock":6,"image":"https://placehold.co/400x400.png?text=Macrame+Necklace","description":"Cotton cord macramé necklace with a wooden bead."},
+  {"id":"p008","name":"Initial Charm Necklace","category":"Necklaces","price":2800,"stock":9,"image":"https://placehold.co/400x400.png?text=Charm+Necklace","description":"Hand-stamped metal initial charm on a fine chain."},
+  {"id":"p009","name":"Embroidered Hair Clip","category":"Hair Accessories","price":900,"stock":30,"image":"https://placehold.co/400x400.png?text=Hair+Clip","description":"Hand-embroidered floral fabric hair clip."},
+  {"id":"p010","name":"Satin Scrunchie Trio","category":"Hair Accessories","price":1000,"stock":3,"image":"https://placehold.co/400x400.png?text=Scrunchies","description":"Three handmade satin scrunchies in assorted colors."},
+  {"id":"p011","name":"Woven Keychain","category":"Bags & Keychains","price":800,"stock":20,"image":"https://placehold.co/400x400.png?text=Keychain","description":"Hand-woven cotton keychain with a metal ring."},
+  {"id":"p012","name":"Mini Crochet Pouch","category":"Bags & Keychains","price":2400,"stock":5,"image":"https://placehold.co/400x400.png?text=Crochet+Pouch","description":"Small crochet pouch with a zip, fits earbuds and coins."}
+]
