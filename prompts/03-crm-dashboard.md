@@ -28,4 +28,6 @@ Decisions by the AI: dashboard at `/admin` for seller accounts; shows all orders
 | Change an order's status to Shipped | Status updates | yes | pass |
 | Add a note to an order, then refresh | Status and note still there | yes | pass |
 | Open /admin on the live site and refresh | Page loads, no 404 | yes | pass |
+
+
 **Remaining limitations:** every seller sees all orders; no real authentication.
