@@ -8,9 +8,9 @@
 The assignment requires search/filter, a cart with a total, and a simulated checkout that creates an order.
 
 ## 2. Prompt exactly as used
-> i need to finish every thing if the idea i give is longer then make it short 
+> i need to finish every thing if the idea i gave is longer then make it short 
 
-Follow-up I sent:
+Follow-up I sent(mid response):
 > wait wont that make it incompelete?
 
 
@@ -26,13 +26,19 @@ The AI reduced my idea to the assignment's required features (dropped an inquiri
 ## 6. Validation
 | Test | Expected | Observed | Pass/Fail |
 |---|---|---|---|
-| Search "pearl" | Only Pearl Drop Earrings | | |
-| Search "zzzz" | "No products match your search" | | |
-| Choose the Rings category | Only rings | | |
-| Add Satin Scrunchie Trio and keep clicking + | Quantity stops at 3 | | |
-| Remove all items from the cart | "Your cart is empty" | | |
-| Place an order with empty fields | Validation errors, no order | | |
-| Place an order with valid fictional details | Confirmation page with an order ID | | |
-| Open /order/NX-9999 | "Order not found" page | | |
+| Search "pearl" | Only Pearl Drop Earrings | yes | pass |
+| Search "zzzz" | "No products match your search" | yes | pass |
+| Choose the Rings category | Only rings | yes | pass |
+| Add Satin Scrunchie Trio and keep clicking + | Quantity stops at 3 | yes | pass |
+| Remove all items from the cart | "Your cart is empty" | yes | pass|
+| Place an order with empty fields | Validation errors, no order | yes | pass |
+| Place an order with valid fictional details | Confirmation page with an order ID | yes | pass |
+| Open /order/NX-9999 | "Order not found" page | yes | pass |
 
 **Remaining limitations:** orders live in this browser only; payment is simulated.
+
+
+
+
+
+
