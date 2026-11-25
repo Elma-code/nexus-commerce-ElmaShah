@@ -20,7 +20,7 @@ Small online sellers struggle to keep listings, customers and orders in one work
 React (Vite), Tailwind CSS v3, React Router. No backend.
 
 ## Prerequisites and run locally
-Node.js 18 or newer.
+Node.js 20 or newer (developed and tested with Node 24).
 ```bash
 cd frontend
 npm install
