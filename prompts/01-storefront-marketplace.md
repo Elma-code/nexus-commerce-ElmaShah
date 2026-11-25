@@ -32,15 +32,15 @@ Context-engineering check: AI compared the shop page against products.json.  Lim
 
 | Test | Expected | Observed | Pass/Fail |
 |---|---|---|---|
-| Open the home page | 12 product cards; Resin Flower Ring shows Out of stock; Satin Scrunchie Trio shows Low stock | | |
-| Open /product/p004 | Button is greyed out and disabled | | |
-| Open /product/p999 | "Product not found" page | | |
-| Sign up as a buyer with an invalid phone (no +) | Error message under the phone field | | |
-| Sign up as a buyer with +14155550123 | Prices shown in USD | | |
-| Choose Sell on signup, leave bank fields empty | Errors for account name and IBAN | | |
-| List a product with only 1 picture | Error: upload at least 2 pictures | | |
-| List a product with 2 pictures | Product appears in the shop | | |
-| Resize to phone width, then desktop width | 1 column on phone, 4 on a wide screen | | |
+| Open the home page | 12 product cards; Resin Flower Ring shows Out of stock; Satin Scrunchie Trio shows Low stock | yes | pass |
+| Open /product/p004 | Button is greyed out and disabled | yes | pass |
+| Open /product/p999 | "Product not found" page | yes image also available in readme | pass |
+| Sign up as a buyer with an invalid phone (no +) | Error message under the phone field | "Use international format, e.g. +923001234567", displayed | pass |
+| Sign up as a buyer with +14155550123 | Prices shown in USD | yes | pass |
+| Choose Sell on signup, leave bank fields empty | Errors for account name and IBAN | yes | pass |
+| List a product with only 1 picture | Error: upload at least 2 pictures | yes | pass |
+| List a product with 2 pictures | Product appears in the shop | yes | pass |
+| Resize to phone width, then desktop width | 1 column on phone, 4 on a wide screen | yes | pass |
 | Refresh the page after signing in | Still signed in | | |
 
 **Remaining limitations:** demo currency rates; no real login; data only in this browser.
