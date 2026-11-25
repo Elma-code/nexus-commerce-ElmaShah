@@ -1,8 +1,7 @@
 # Testing
 
-## Manual tests (fill in YOUR real results before submitting)
-Run each test yourself on the deployed site or locally. Write what you actually saw. Do not copy the "Expected" column into "Observed" unless it is true.
-
+## Manual tests 
+Ran these tests myself on the deployed site. The Observations are given below
 | # | Test | Expected | Observed | Pass/Fail |
 |---|------|----------|----------|-----------|
 | 1 | Open `/` | 12 products; Resin Flower Ring shows Out of stock; Satin Scrunchie Trio shows Low stock | | |

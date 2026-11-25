@@ -54,6 +54,12 @@ Everything (products, accounts, cart, orders) is saved in the browser's **localS
 | Order not found | ![Order not found](screenshots/order%20not%20found.PNG) |
 | Admin (1) | ![Admin 1](screenshots/admin%20page1.2.PNG) |
 | Admin (2) | ![Admin 2](screenshots/admin%20page1.3.PNG) |
+| Currency conversion (USD) | ![USD prices](screenshots/currency_conversion.PNG) |
+| Duplicate email error | ![Duplicate email](screenshots/seller_signup_error_message.PNG) |
+| Invalid phone at checkout | ![Phone error](screenshots/unformatted_cell_no_.PNG) |
+| Product listed | ![Product listed](screenshots/product_listed.PNG) |
+| Buyer signup | ![Buyer signup](screenshots/account_creation.PNG) |
+| Seller signup | ![Seller signup](screenshots/seller_account_creation.PNG) |
 
 ## Documentation
 - AI prompt documentation: [prompts/INDEX.md](prompts/INDEX.md)
