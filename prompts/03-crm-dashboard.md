@@ -23,9 +23,9 @@ Decisions by the AI: dashboard at `/admin` for seller accounts; shows all orders
 ## 6. Validation
 | Test | Expected | Observed | Pass/Fail |
 |---|---|---|---|
-| Log in as demo.seller@example.com, open Dashboard | Metrics and orders table show | | |
-| Place a new order, then check the Dashboard | New order listed; Total orders went up by 1 | | |
-| Change an order's status to Shipped | Status updates | | |
-| Add a note to an order, then refresh | Status and note still there | | |
-| Open /admin on the live site and refresh | Page loads, no 404 | | |
+| Log in as demo.seller@example.com, open Dashboard | Metrics and orders table show | yes | pass |
+| Place a new order, then check the Dashboard | New order listed; Total orders went up by 1 | yes | pass |
+| Change an order's status to Shipped | Status updates | yes | pass |
+| Add a note to an order, then refresh | Status and note still there | yes | pass |
+| Open /admin on the live site and refresh | Page loads, no 404 | yes | pass |
 **Remaining limitations:** every seller sees all orders; no real authentication.
