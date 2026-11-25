@@ -41,6 +41,6 @@ Context-engineering check: AI compared the shop page against products.json.  Lim
 | List a product with only 1 picture | Error: upload at least 2 pictures | yes | pass |
 | List a product with 2 pictures | Product appears in the shop | yes | pass |
 | Resize to phone width, then desktop width | 1 column on phone, 4 on a wide screen | yes | pass |
-| Refresh the page after signing in | Still signed in | | |
+| Refresh the page after signing in | Still signed in | yes | pass |
 
 **Remaining limitations:** demo currency rates; no real login; data only in this browser.
