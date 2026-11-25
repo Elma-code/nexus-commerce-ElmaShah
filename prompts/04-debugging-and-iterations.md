@@ -2,17 +2,25 @@
 
 
 ## Issue 1
+
 **Problem:** Tailwind colors showing black.
+
 **Prompt exactly as used:**
 > "its big bold and black?"
+
 **Fix applied:** switched from Tailwind v4 to Tailwind v3 (uninstalled tailwindcss and @tailwindcss/vite, installed tailwindcss@3, postcss and autoprefixer, and changed vite.config.js, tailwind.config.js and src/index.css). Cause: an older browser that cannot show Tailwind v4's colour syntax (windows 8).
+
 **Verification:** after the change and a restart, the test heading turned blue. 
 
 ## Issue 2
+
 **Problem:** Vite cache error.
+
 **Prompt exactly as used:**
 > pasted the "Pre-transform error ... react-DgVJeC5g.js" lines.
+
 **Fix applied:**  deleted node_modules/.vite and restarted with `npm run dev -- --force`.
+
 **Verification:** after the restart the terminal showed "ready" with no "Pre-transform error" lines. the browser showed everything in accordance with prducts.json.
 
 ## Issue 3: Files created in the wrong folder
