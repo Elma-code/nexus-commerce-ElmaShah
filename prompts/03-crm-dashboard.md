@@ -9,7 +9,7 @@ The seller needs to see orders, update their status, keep notes, and see summary
 
 ## 2. Prompt exactly as used
 Same message as log 02 (the AI built the storefront and CRM parts together):
-> i need to finish every thing if the idea i give is longer then make it short 
+> i need to finish every thing if the idea i gave is longer then make it short 
 
 ## 3. Context supplied
 The assignment's CRM requirements: order list with ID, items, customer reference, total and status; status update or notes; at least one summary metric; fictional demo records only.
